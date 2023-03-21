@@ -28,7 +28,8 @@
 }
 
 .font-one{
-    font-family: 'Sofia Pro Condensed', sans-serif;
+    /* font-family: 'Sofia Pro Condensed', sans-serif; */
+    font-family: 'Sofia Sans Condensed', sans-serif;
     font-style: italic;
     font-weight: 300;
     font-size: 1.5rem;
@@ -177,14 +178,16 @@
 
 
 .brevia-black-italic{
-    font-family: "brevia", sans-serif;
+    /* font-family: "brevia", sans-serif; */
+    font-family: 'Sansita', sans-serif;
     font-weight: 900;
     font-style: italic;
 }
 
 .brevia-light-italic{
-    font-family: "brevia", sans-serif;
-    font-weight: 300;
+    /* font-family: "brevia", sans-serif; */
+    font-family: 'Sansita', sans-serif;
+    font-weight: 400;
     font-style: italic;
 }
 
