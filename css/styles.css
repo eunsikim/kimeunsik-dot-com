@@ -28,7 +28,7 @@
 }
 
 .font-one{
-    font-family: 'Sofia Pro Condensed';
+    font-family: 'Sofia Pro Condensed', sans-serif;
     font-style: italic;
     font-weight: 300;
     font-size: 1.5rem;
@@ -177,19 +177,19 @@
 
 
 .brevia-black-italic{
-    font-family: "brevia";
+    font-family: "brevia", sans-serif;
     font-weight: 900;
     font-style: italic;
 }
 
 .brevia-light-italic{
-    font-family: "brevia";
+    font-family: "brevia", sans-serif;
     font-weight: 300;
     font-style: italic;
 }
 
 .mont-black{
-    font-family: "montserrat";
+    font-family: "montserrat", sans-serif;
     font-weight: 900;
     font-style: normal;
 }
