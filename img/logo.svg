@@ -4,7 +4,7 @@
     <style>
       .cls-1 {
         fill: #fff;
-        font-family: Montserrat;
+        font-family: Montserrat-Black, Montserrat;
         font-size: 136.79px;
         font-weight: 800;
       }
