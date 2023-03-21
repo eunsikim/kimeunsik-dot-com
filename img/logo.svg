@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 289.99 153.2">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.22 8.73">
   <defs>
     <style>
       .cls-1 {
         fill: #fff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 136.79px;
-        font-weight: 800;
       }
     </style>
   </defs>
-  <text class="cls-1" transform="translate(0 116.27)"><tspan x="0" y="0">ESK</tspan></text>
+  <path class="cls-1" d="m6.74,6.73v1.83H0V.17h6.58v1.83H2.35v1.42h3.73v1.77h-3.73v1.54h4.39Z"/>
+  <path class="cls-1" d="m7.48,7.81l.78-1.75c.74.49,1.8.83,2.77.83s1.37-.28,1.37-.68c0-1.33-4.77-.36-4.77-3.48,0-1.5,1.22-2.72,3.72-2.72,1.09,0,2.22.25,3.05.73l-.73,1.76c-.8-.43-1.59-.65-2.33-.65-1,0-1.35.34-1.35.76,0,1.28,4.76.32,4.76,3.42,0,1.46-1.22,2.71-3.72,2.71-1.38,0-2.75-.37-3.54-.92Z"/>
+  <path class="cls-1" d="m19.07,5.52l-.89.95v2.1h-2.35V.17h2.35v3.49L21.43.17h2.61l-3.43,3.72,3.61,4.68h-2.76l-2.4-3.05Z"/>
 </svg>
