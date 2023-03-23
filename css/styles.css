@@ -11,7 +11,7 @@
 
 .logo{
     margin: 2rem;
-    height: 2rem;
+    height: min(5vw, 2rem);
 }
 
 .background-one{
@@ -132,9 +132,7 @@
         display: block;
     }
 
-    .logo{
-        height: 4rem;
-    }
+
 }
 
 
