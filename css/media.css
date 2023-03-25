@@ -1,0 +1,75 @@
+@media (max-width: 768px){
+    .menu{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .main-content{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        align-items: center;
+    }
+    .content{
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        width:min-content;
+    }
+    .social-bar{
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+    .social-bar__icon{
+        height: 2.5rem;
+    }
+    .content__text{
+        width: auto;
+    }
+    .skill-list__bubble{
+        margin: 0.5rem;
+    }
+}
+
+@media (max-device-height: 915px) and (orientation: landscape){
+    .test{
+        margin-top: 10px;
+        /* line-height: 80%; */
+    }
+    .main-content{
+        padding-top: 20px;
+    }
+    .content--heading-1{
+        display: flex;
+    }
+    
+    .font--size-1{
+        font-size: min(4.6875vh, 1.5rem);
+    }
+    
+    .font--size-2{
+        font-size: min(6.25vh, 2rem);
+    }
+
+    .font--size-3{
+        font-size: min(25vh, 8rem);
+    }
+    
+    .logo{
+        height: min(5vh, 2rem);
+    }
+
+    .social-bar__icon{
+        height: 2.5rem;
+    }
+
+    .font--color-gradient{
+        /* background-image: linear-gradient(45deg, #6188d8 0px, #ab47bc 600px); */
+    }
+
+
+    
+}

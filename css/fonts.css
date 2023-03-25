@@ -1,0 +1,75 @@
+.font--Sofia-Sans-Condensed{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.font--Sansita{
+    font-family: 'Sansita', sans-serif;
+}
+
+.font--Montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font--Fira-Sans{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.font--italic{
+    font-style: italic;
+}
+
+.font--normal{
+    font-style: normal;
+}
+
+.font--w-xlight{
+    font-weight: 200;
+}
+
+.font--w-light{
+    font-weight: 300;
+}
+
+.font--w-normal{
+    font-weight: 400;
+}
+
+.font--w-medium{
+    font-weight: 500;
+}
+
+.font--w-black{
+    font-weight: 900;
+}
+
+.font--size-1{
+    font-size: min(4.6875vw, 1.5rem);
+}
+
+.font--size-2{
+    font-size: min(6.25vw, 2rem);
+}
+
+.font--size-3{
+    font-size: min(25vw, 8rem);
+}
+
+.font--line-height-80p{
+    line-height: 80%;
+}
+
+.font--line-height-2{
+    line-height: 2;
+}
+
+.font--color-white{
+    color: white;
+}
+
+.font--color-gradient{
+    background-image: linear-gradient(45deg, #6188d8 1rem, #ab47bc 20rem);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+}

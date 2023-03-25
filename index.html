@@ -2,52 +2,57 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/fonts.css">
         <link rel="stylesheet" href="./css/styles.css">
-        <link rel="stylesheet" href="https://use.typekit.net/upa4hvw.css">
+        <link rel="stylesheet" href="./css/media.css">
+
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Sansita:ital,wght@1,900&family=Sofia+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500&family=Montserrat:wght@800;900&family=Sansita:ital,wght@1,900&family=Sofia+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        
         <script defer src="./js/main.js"></script>
     </head>
-    <body>
-        <section class="section-Content background-one font--Sofia-Sans-Condensed font--italic font--w-light font--size-1 font--color-white">
-            <nav class="nav-bar">
-                <div class="container">
-                    <!-- <img class="logo" src="./img/logo.svg"> -->
-                    <img class="logo" src="./img/logo.svg">
-                    <div class="menu">                       
-                        <a>about</a>                       
-                        <a>projects</a>                  
-                        <a>resume</a>
-                        <a>contact</a>
-                    </div>
-
-                    <button class="hamburger">
-                        <span class="is-active"></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-
-                </div>
-
-                <div class="ham-menu">
+    <body class="font--Sofia-Sans-Condensed font--italic font--w-light font--size-1 font--color-white">
+        <nav class="nav-bar">
+            <div class="container">
+                <!-- <img class="logo" src="./img/logo.svg"> -->
+                <img class="logo" src="./img/logo.svg">
+                <div class="menu">                       
                     <a>about</a>                       
                     <a>projects</a>                  
                     <a>resume</a>
                     <a>contact</a>
                 </div>
 
-            </nav>
-            <div class="content-right">
+                <button class="hamburger">
+                    <span class="is-active"></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+
+            <div class="ham-menu">
+                <a>about</a>                       
+                <a>projects</a>                  
+                <a>resume</a>
+                <a>contact</a>
+            </div>
+
+        </nav>
+        <section class="content-section background-one">
+            <div class="main-content">
                 <div class="content">
-                    <h1 class="font--Sansita font--w-black font--size-2 font--line-height-2">Hello, my name is</h1>
-                    <div class="my-name">
-                        <h1 class="font--Montserrat font--normal font--w-black font--size-3 font--line-height-80p">EUN</h1>
-                        <h1 class="font--Montserrat font--normal font--w-black font--size-3 font--color-gradient font--line-height-80p">SIK</h1>
-                        <h1 class="font--Montserrat font--normal font--w-black font--size-3 font--line-height-80p">KIM</h1>
+                    <div class="font--Sansita font--w-black font--size-2 font--line-height-2">Hello, my name is</div>
+                    <div class="content--heading-1">
+                        <div class="font--Montserrat font--normal font--w-black font--size-3 font--line-height-80p">EUN</div>
+                        <div class="font--Montserrat font--normal font--w-black font--size-3 font--color-gradient font--line-height-80p">SIK</div>
+                        <div class="font--Montserrat font--normal font--w-black font--size-3 font--line-height-80p">KIM</div>
                     </div>
                     <div class="test">
-                        <p class="font--size-1">I am a software engineer, aspiring web dev, trilingual (Korean, Spanish, and English), history enthusiast, and android user</p>
+                        <div class="font--size-1">I am a software engineer, aspiring web dev, trilingual (Korean, Spanish, and English), history enthusiast, and android user</div>
                     </div>
                 </div>
                 <div class="social-bar">
@@ -57,8 +62,44 @@
                 </div>
             </div>
         </section>
-        <section class="section-Content background-two">
-            <div class="divider"></div>
+        <div class="divider"></div>
+        <section class="content-section background-two">
+            <div class="main-content main-content--padding-center main-content--padding-top">
+                <div class="content content__text content--padded font--Fira-Sans font--w-xlight font--normal font--size-1">
+
+                    <div class="content--heading font--Fira-Sans font--w-medium font--normal font--size-2">
+                        A little bit about myself
+                    </div>
+                    <div class="content--text">
+                        I was born in South Korea, but I grew up in Chile and Bolivia. I graduated from Kennesaw State University on December 2022 with a Bachelor of Science in Software Engineering and a minor degree in Computer Science. Currently, I am pursuing a Master of Science in Software Engineering at Kennesaw State University.
+                    </div>
+
+                    <div class="content--text">
+                        I have a passion for problem solving and programming. I also have a fascinationg with Web development constantly learning new things through youtube and by building small projects.
+                    </div>
+
+                    <div class="content--text">
+                        I am also a Graduate Teaching Assistant for the First Year Experience at KSU's College of Computing and Software Engineering. Instructing and conducting the lab portion for the programming and problem solvig I and II courses.
+                    </div>
+                </div>
+                <div class="content content__text content--padded font--Fira-Sans font--w-xlight font--normal font--size-1">
+                    <div class="content--heading font--Fira-Sans font--w-medium font--normal font--size-2">
+                        I have experience with...
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-list__bubble">Java</li>
+                        <li class="skill-list__bubble">C#</li>
+                        <li class="skill-list__bubble">Kotlin</li>
+                        <li class="skill-list__bubble">Python</li>
+                        <li class="skill-list__bubble">C++</li>
+                        <li class="skill-list__bubble">JavaScript</li>
+                        <li class="skill-list__bubble">PHP</li>
+                        <li class="skill-list__bubble">HTML</li>
+                        <li class="skill-list__bubble">CSS</li>
+                        <li class="skill-list__bubble">SQL</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </body>
 </html>
