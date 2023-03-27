@@ -32,9 +32,16 @@
     .skill-list__bubble{
         margin: 0.5rem;
     }
+
+    .background-one{  
+        background-attachment: initial;
+    }
 }
 
 @media (max-device-height: 915px) and (orientation: landscape){
+    .background-one{  
+        background-attachment: initial;
+    }
     .test{
         margin-top: 10px;
         /* line-height: 80%; */
