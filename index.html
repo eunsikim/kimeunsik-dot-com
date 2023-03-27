@@ -18,11 +18,13 @@
         <nav class="nav-bar">
             <div class="container">
                 <!-- <img class="logo" src="./img/logo.svg"> -->
-                <img class="logo" src="./img/logo.svg">
+                <a href="#home">
+                    <img class="logo" src="./img/logo.svg">
+                </a>
                 <div class="menu">                       
-                    <a>about</a>                       
-                    <a>projects</a>                  
-                    <a>resume</a>
+                    <a class="anchor--white anchor--no-style" href="#about">about</a>                       
+                    <a class="anchor--white anchor--no-style" href="#projects">projects</a>                  
+                    <a class="anchor--white anchor--no-style" href="#resume">resume</a>
                     <a>contact</a>
                 </div>
 
@@ -35,14 +37,15 @@
             </div>
 
             <div class="ham-menu">
-                <a>about</a>                       
-                <a>projects</a>                  
-                <a>resume</a>
+                <a class="anchor--white anchor--no-style" href="#about">about</a>                       
+                <a class="anchor--white anchor--no-style" href="#projects">projects</a>                  
+                <a class="anchor--white anchor--no-style" href="#resume">resume</a>
                 <a>contact</a>
             </div>
 
         </nav>
-        <section class="content-section background-one">
+
+        <section id="home" class="content-section background-one">
             <div class="main-content">
                 <div class="content">
                     <div class="font--Sansita font--w-black font--size-2 font--line-height-2">Hello, my name is</div>
@@ -56,14 +59,24 @@
                     </div>
                 </div>
                 <div class="social-bar">
-                    <img src="./img/icons/github.svg" class="social-bar__icon"/>
-                    <img src="./img/icons/linkedin.svg" class="social-bar__icon"/>
-                    <img src="./img/icons/twitter.svg" class="social-bar__icon"/>
+                    <a href="https://github.com/eunsikim">
+                        <img src="./img/icons/github.svg" class="social-bar__icon"/>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/kimeunsik/">
+                        <img src="./img/icons/linkedin.svg" class="social-bar__icon"/>
+                    </a>
+
+                    <a href="https://twitter.com/kimeunsik229">
+                        <img src="./img/icons/twitter.svg" class="social-bar__icon"/>
+                    </a>
                 </div>
             </div>
         </section>
+
         <div class="divider"></div>
-        <section class="content-section background-two">
+
+        <section id="about" class="content-section background-two">
             <div class="main-content main-content--padding-center main-content--padding-top">
                 <div class="content content__text content--padded font--Fira-Sans font--w-xlight font--normal font--size-1">
 
@@ -101,12 +114,18 @@
                 </div>
             </div>
         </section>
-        <section class="content-section background-two">
+
+        <div class="divider"></div>
+
+        <section id="projects" class="content-section background-two">
             <div class="main-content main-content--padding-center main-content--padding-top">
                 <h1>Projects</h1>
             </div>
         </section>
-        <section class="content-section background-two">
+
+        <div class="divider"></div>
+
+        <section id="resume" class="content-section background-two">
             <div class="main-content main-content--padding-center main-content--padding-top">
                 <h1>Resume</h1>
             </div>

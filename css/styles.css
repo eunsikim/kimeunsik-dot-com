@@ -96,6 +96,17 @@ html{
 }
 
 
+.anchor--white{
+    color:white;
+}
+
+.anchor--no-style{
+    text-decoration: none;
+}
+.anchor--no-style:visited {color:white;} /* Visited link    */
+.anchor--no-style:hover {color:white;}   /* Mouse over link */
+.anchor--no-style:active {color:white;}  
+
 
 
 
