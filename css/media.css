@@ -34,13 +34,13 @@
     }
 
     .background-one{  
-        background-size: 100% 100%;
+        background-attachment: initial;
     }
 }
 
 @media (max-device-height: 915px) and (orientation: landscape){
     .background-one{  
-        background-size: 100% 100%;
+        background-attachment: initial;
     }
     .test{
         margin-top: 10px;
