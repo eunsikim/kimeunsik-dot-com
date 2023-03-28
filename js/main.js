@@ -33,3 +33,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+
+
+
+
+const redPepperInfo = document.querySelector('#redPepper-More-Info');
+
+redPepperInfo.addEventListener('click', function(){
+    document.querySelector('#redPepper-More-Info-Content').classList.toggle('is-active');
+});
