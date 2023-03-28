@@ -116,7 +116,7 @@
 }
 
 
-@media screen and (orientation: portrait){
+@media screen and (orientation: portrait) and (min-width: 768px){
     .main-content--landscape-col{
         flex-direction: column;
         padding-left: 10%;
