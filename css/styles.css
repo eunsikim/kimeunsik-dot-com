@@ -149,3 +149,7 @@
 .content__col-mr{
     margin-right: 3rem;
 }
+
+.main-content--mobile-padding{
+    padding-top: 2.5rem;
+}
