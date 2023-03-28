@@ -36,9 +36,14 @@
     .background-one{  
         background-attachment: initial;
     }
+
+    .section{
+        padding-top: 6rem;
+    }
 }
 
 @media (max-device-height: 915px) and (orientation: landscape){
+    
     .background-one{  
         background-attachment: initial;
     }
@@ -88,5 +93,7 @@
     }
 
 
-    
+    .section{
+        padding-top: 6rem;
+    }
 }
