@@ -78,6 +78,22 @@
     color:transparent;
 }
 
+.content--Title-1{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(12.5vw, 3rem);
+    margin-bottom: 2rem;
+}
+
+.content--Title-1{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(6.25vw, 2rem);
+    margin-bottom: 1rem;
+}
+
 .content--heading-1{
     font-family: 'Fira Sans', sans-serif;
     font-style: normal;
@@ -113,6 +129,16 @@
 
 .content--list-2{
     font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: min(4.6875vw, 1.5rem);
+    margin-bottom: 0.3rem;
+    margin-left: 3rem;
+}
+
+
+.content--normal-1{
+    font-family: 'Sofia Sans Condensed', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: min(4.6875vw, 1.5rem);
