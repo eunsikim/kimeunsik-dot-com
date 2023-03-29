@@ -31,7 +31,7 @@
                     <a class="anchor--white anchor--no-style" href="#about">about</a>                       
                     <a class="anchor--white anchor--no-style" href="#projects">projects</a>                  
                     <a class="anchor--white anchor--no-style" href="#resume">resume</a>
-                    <a>contact</a>
+                    <a class="anchor--white anchor--no-style" href="#contact">contact</a>
                 </div>
 
                 
@@ -42,7 +42,7 @@
                 <a class="anchor--white anchor--no-style" href="#about">about</a>                       
                 <a class="anchor--white anchor--no-style" href="#projects">projects</a>                  
                 <a class="anchor--white anchor--no-style" href="#resume">resume</a>
-                <a>contact</a>
+                <a class="anchor--white anchor--no-style" href="#contact">contact</a>
             </div>
 
         </nav>
@@ -298,6 +298,47 @@
                         </ul>
 
                     </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="divider"></div>
+
+
+        <section id="contact" class="content-section background-two">
+            <div class="main-content main-content--padding-center-10p main-content--padding-top main-content--col main-content--center">
+                <div class="content--Title-1">Contact</div>
+
+                <div class="contact-form">
+                    <form action="https://formsubmit.co/el/disuli" method="POST">
+
+                        <!-- Honeypot -->
+                        <input type="text" name="_honey" style="display: none;">
+
+                        <!-- Disable Captcha -->
+                        <input type="hidden" name="_captcha" value="false">
+
+                    
+                        <label for="firstName" class="">First Name</label>
+                        <input type="text" class="content--m-2 contact-form--input" name="name" id="firstName" required>
+
+                        <label for="lastName" class="">Last Name</label>
+                        <input type="text" class="content--m-2 contact-form--input" name="Last&nbsp;Name" id="lastName" required>
+                    
+                        <label for="emailInfo" class="">E-mail</label>
+                        <input type="email" class="content--m-2 contact-form--input" name="email" id="emailInfo" required>
+                    
+                        <label for="phoneNumber" class="">Phone Number</label>
+                        <input type="text" class="content--m-2 contact-form--input" name="phone" id="phoneNumber" placeholder="+1 (123) 456-7890">
+                
+                        <label for="comments" class="">Comments, questions?</label>
+                        <textarea class="content--m-3" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+
+                        <button type="submit" class="">Submit</button>
+
+                    </form>
                 </div>
 
             </div>

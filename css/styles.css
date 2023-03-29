@@ -214,3 +214,17 @@ button{
     background: linear-gradient(45deg, #676E95 0rem, #ab47bc 18rem);
 }
 
+
+.contact-form{
+    width: 320px;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form--input{
+    height: 2rem;
+    border-radius: 5px;
+}
