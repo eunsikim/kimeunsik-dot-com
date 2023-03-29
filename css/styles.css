@@ -4,13 +4,9 @@
     box-sizing: border-box;
 }
 
-html{
-    height: -webkit-fill-available;
-}
 
 .content-section{
     min-height: 100vh;
-    height: -webkit-fill-available;
     max-width: 100vw;
 }
 
@@ -28,8 +24,15 @@ html{
 }
 
 .divider{
-    height: 1.5rem;
-    background-color: #ab47bc;
+    height: 0.3rem;
+    background: linear-gradient(45deg, #676E95 1rem, #ab47bc 20rem);
+}
+
+.divider--2{
+    height: 0.5rem;
+    width: 100%;
+    background: linear-gradient(45deg, #676E95 1rem, #ab47bc 20rem);
+    margin-bottom: 1rem;
 }
 
 .main-content{
@@ -50,7 +53,13 @@ html{
     padding-top: 6rem;
 }
 
+.main-content--col{
+    flex-direction: column;
+}
 
+.main-content--center{
+    justify-content: center;
+}
 
 .social-bar{
     display: flex;
@@ -60,6 +69,10 @@ html{
 
 .social-bar__icon{
     height: 3rem;
+}
+
+.content__icon{
+    height: min(8vw, 3rem);
 }
 
 .test{
@@ -73,12 +86,23 @@ html{
 
 .content{
     width: 50%;
-    
+}
+
+.content--w-full{
+    width: 100%;
 }
 
 
 .content--padded{
     padding: 3rem;
+}
+
+.main-content--padding-center-5p{
+    padding: 0 5% 0 5%;
+}
+
+.main-content--padding-center-10p{
+    padding: 0 10% 0 10%;
 }
 
 .skill-list{
@@ -110,4 +134,83 @@ html{
 
 
 
+
+.img--placeholder{
+    background-color: #414863;
+    border-radius: 10px;
+    width: 320px;
+    height: 320px;
+}
+
+.img--small{
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 480px;
+}
+
+
+.content__col-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.content--w-full{
+    width: 100%;
+}
+
+.content--row{
+    display: flex;
+    flex-direction: row;
+}
+
+.content__col-mr{
+    margin-right: 3rem;
+}
+
+.main-content--mobile-padding{
+    padding-top: 6rem;
+}
+
+
+.content__more{
+    display: none;
+}
+
+.content__more.is-active{
+    display: initial;
+}
+
+button{
+    background: #676E95;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 1rem;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+    font-size: 1.2rem;
+}
+
+.btn{
+    background: linear-gradient(45deg, #676E95 1rem, #ab47bc 20rem);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 1rem;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    align-self: start;
+    font-size: 1.2rem;
+    
+}
+
+.btn:hover{
+    transition: all 1s linear;
+    background: linear-gradient(45deg, #676E95 0rem, #ab47bc 18rem);
+}
 
