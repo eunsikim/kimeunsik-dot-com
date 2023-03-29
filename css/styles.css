@@ -135,6 +135,12 @@
     height: 320px;
 }
 
+.img--small{
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 480px;
+}
+
 
 .content__col-col{
     display: flex;
@@ -151,5 +157,49 @@
 }
 
 .main-content--mobile-padding{
-    padding-top: 2.5rem;
+    padding-top: 6rem;
 }
+
+
+.content__more{
+    display: none;
+}
+
+.content__more.is-active{
+    display: initial;
+}
+
+button{
+    background: #676E95;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 1rem;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+    font-size: 1.2rem;
+}
+
+.btn{
+    background: linear-gradient(45deg, #676E95 1rem, #ab47bc 20rem);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 1rem;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    align-self: start;
+    font-size: 1.2rem;
+    
+}
+
+.btn:hover{
+    transition: all 1s linear;
+    background: linear-gradient(45deg, #676E95 0rem, #ab47bc 18rem);
+}
+
